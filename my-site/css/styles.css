@@ -1,0 +1,156 @@
+
+
+/********************* TAG SELECTORS ***********************/
+body {
+  margin : 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin : 50px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color : #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color : #66BFBF;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.intro {
+  width: 40%;
+  margin: 50px auto ;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color :  #66BFBF;
+}
+
+a {
+  color :  #66BFBF;
+}
+
+/********************* CLASS SELECTORS ***********************/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  padding-top: 50px;
+  margin-top: 100px;
+  background-color: #66BFBF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right : 32%;
+  top : 50px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left : 32%;
+  bottom: 60%;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.phil-pic {
+  border-radius: 50%;
+  width : 15%;
+  height: 1%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.web-devloper-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mobile-devloper-img {
+  width: 15%;
+  float: right;
+  margin-right: 30px;
+}
+
+.dotted-divider {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+  margin-top: 30px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.contact-me {
+  margin-top: 100px;
+}
+
+.contact-btn {
+  border-top: 20px;
+  width: 200px;
+  height: 150px;
+  background-color: #66BFBF;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.footer-link {
+  margin-right: 30px;
+  color: white;
+}
+
+.last-para {
+  margin-bottom: 0;
+  color: white;
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+/**
+  web-skill-desc {
+  clear: left;
+}
+
+.mobile-skill-desc {
+  clear: right;
+} **/
+
+/********************* ID SELECTORS ***********************/
