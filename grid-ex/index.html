@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+      <meta charset="utf-8">
+      <title>grid ex</title>
+
+      <style>
+
+          body {
+            margin : 20px;
+            display : grid;
+            grid-gap : 1em;
+            grid-template-rows : auto auto 1fr auto;
+            min-height : 100vh;
+
+          }
+
+          @media (min-width : 40em) {
+            body {
+              grid-template-columns : 12em 1fr;
+              grid-template-rows : auto 1fr auto;
+            }
+
+            .header {
+              grid-column : span 2;
+              background-color: skyblue;
+              padding-left : 1em;
+            }
+
+            .nav {
+              grid-row : span 2;
+              background-color: #66BFBF;
+              padding-left : 1em;
+            }
+
+            .main {
+              background-color: grey;
+              padding-left : 1em;
+            }
+
+            .footer {
+              background-color: skyblue;
+              padding-left : 1em;
+            }
+
+          }
+
+
+
+      </style>
+
+  </head>
+
+
+
+
+  <body>
+
+      <div class="header">
+        <h3>
+          Header
+          <br> <br> <br>
+        </h3>
+      </div>
+
+      <div class="nav">
+
+        <p>nav</p>
+        <p>nav</p>
+        <p>nav</p>
+        <p>nav</p>
+      </div>
+
+      <div class="main">
+
+        <h3>
+          main
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+      <div class="footer">
+
+        <footer>
+          footer <br> <br>
+        </footer>
+      </div>
+
+
+
+
+
+  </body>
+
+</html>
